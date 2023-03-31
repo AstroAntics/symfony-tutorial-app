@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+{% block title %}PB & Jams{% endblock %}
+
+{% block body %}
+
+<h1>{{title}}</h1>
+
+<div>
+	Our Track List: TODO
+	{% for track in tracks %}
+		<p>{{track}}</p>
+	{% endfor %}
+</div>
+
+{% endblock %}
